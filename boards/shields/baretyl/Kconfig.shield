@@ -1,0 +1,4 @@
+config SHIELD_BARETYL_LEFT
+       def_bool $(shields_list_contains,baretyl_left)
+config SHIELD_BARETYL_RIGHT
+       def_bool $(shields_list_contains,baretyl_right)
