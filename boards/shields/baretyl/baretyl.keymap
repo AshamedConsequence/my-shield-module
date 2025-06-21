@@ -15,7 +15,7 @@
                     &kp A       &kp O     &kp E     &kp U   &kp I                                       &kp D &kp H &kp T &kp N &kp S
                     &kp SEMI    &kp Q     &kp J     &kp K   &kp X                                       &kp B &kp M &kp W &kp V &kp Z
                     &kp LBKT    &kp RBKT  &mt LSHIFT ESC   &mt LCTRL BS                                       &mt RALT SPACE &mt RSHIFT RET &kp MINUS &kp EQUAL
-                                                        &kp N1 &kp TAB              &kp N3 & kp N2
+                                                        &kp N1 &kp TAB              &kp N3 &kp N2
                                                         &kp LGUI &kp TILDE         &kp BSLH &kp FSLH
             >;
         };
