@@ -32,6 +32,7 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4)                                       RC
         label = "KSCAN";
 
         diode-direction = "col2row";
+        wakeup-source;
         row-gpios
             = <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 0 from the schematic file
             , <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 1 from the schematic file
