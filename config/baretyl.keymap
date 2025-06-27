@@ -66,10 +66,10 @@
 
         symbols {
             bindings = <
-                    &kp LBRC     &kp AMPS &kp STAR   &kp RPAR   &kp LBRC                                       &none     &none &none   &none   &none
+                    &kp LBRC     &kp AMPS &kp STAR   &kp LPAR   &kp RBRC                                       &none     &none &none   &none   &none
                     &kp COLON       &kp DOLLAR     &kp PRCNT     &kp CARET   &kp PLUS                               &none &kp RSHIFT &kp RCTRL  &kp RALT &kp RGUI
                     &kp TILDE    &kp EXCL    &kp AT     &kp HASH   &kp PIPE                        &none    &none    &none     &none   &none
-                    &none    &none  &kp RPAR   &kp LPAR                                   &trans &trans &none &none
+                    &none    &none  &kp LPAR   &kp RPAR                                   &trans &trans &none &none
                                                         &kp UNDER &trans              &trans &trans
                                                         &trans &trans              &trans &trans
             >;
