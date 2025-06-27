@@ -33,7 +33,7 @@
                     &none     &none &none   &none   &none                                       &none &none &none &none &none
                     &kp LGUI       &kp LALT     &kp LCTRL     &kp LSHIFT   &none                &kp CAPS &kp LEFT &kp DOWN &kp UP &kp RIGHT
                     &none    &none    &none     &none   &none                                   &kp INSERT &kp HOME &kp PG_DN &kp PG_UP &kp END
-                    &none    &none  &none   &none                                   &trans &trans &kp DEL  &NONE
+                    &none    &none  &none   &none                                   &trans &trans &kp DEL  &none
                                                         &trans &trans              &trans &trans
                                                         &trans &trans              &trans &trans
             >;
