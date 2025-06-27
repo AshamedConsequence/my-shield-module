@@ -14,8 +14,8 @@
                     &kp A       &kp O     &kp E     &kp U   &kp I                                       &kp D &kp H &kp T &kp N &kp S
                     &kp SEMI    &kp Q     &kp J     &kp K   &kp X                                       &kp B &kp M &kp W &kp V &kp Z
                     &kp FSLH    &kp BSLH  &mt LCTRL SPACE   &kp LSHIFT               &mt RALT RET &kp BSPC &kp MINUS &kp EQUAL
-                                                        &mo 1 &lt 3 GRAVE              &lt 4 RET &kp N2
-                                                        &mt LGUI ESC &lt 2 TAB         &kp BSLH &kp FSLH
+                                                        &mo 1 &lt 3 GRAVE              &lt 4 RET &lt 5 RET
+                                                        &mt LGUI ESC &lt 2 TAB         &lt 6 RET &mt LGUI ESC
             >;
         };
 
@@ -60,6 +60,28 @@
                     &kp GRAVE    &kp N1    &kp N2     &kp N3   &kp BSLH                        &none    &none    &none     &none   &none
                     &none    &none  &kp DOT   &kp N0                                   &trans &trans &none &none
                                                         &kp MINUS &trans              &trans &trans
+                                                        &trans &trans              &trans &trans
+            >;
+        };
+
+        symbols {
+            bindings = <
+                    &kp LBRC     &kp AMPS &kp STAR   &kp RPAR   &kp LBRC                                       &none     &none &none   &none   &none
+                    &kp COLON       &kp DOLLAR     &kp PRCNT     &kp CARET   &kp PLUS                               &none &kp RSHIFT &kp RCTRL  &kp RALT &kp RGUI
+                    &kp TILDE    &kp EXCL    &kp AT     &kp HASH   &kp PIPE                        &none    &none    &none     &none   &none
+                    &none    &none  &kp RPAR   &kp LPAR                                   &trans &trans &none &none
+                                                        &kp UNDER &trans              &trans &trans
+                                                        &trans &trans              &trans &trans
+            >;
+        };
+
+        functions {
+            bindings = <
+                    &kp F12     &kp F7 &kp F8   &kp F9   &kp PSCRN                                       &none     &none &none   &none   &none
+                    &kp F11       &kp F4     &kp F5     &kp F6   &kp SLCK                               &none &kp RSHIFT &kp RCTRL  &kp RALT &kp RGUI
+                    &kp F10    &kp F1    &kp F2     &kp F3   &kp PAUSE_BREAK                        &none    &none    &none     &none   &none
+                    &none    &none  &kp K_CMENU   &kp SPACE                                   &trans &trans &none &none
+                                                        &kp TAB &trans              &trans &trans
                                                         &trans &trans              &trans &trans
             >;
         };
