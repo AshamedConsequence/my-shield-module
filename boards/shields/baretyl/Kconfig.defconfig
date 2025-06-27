@@ -2,11 +2,16 @@ if SHIELD_BARETYL_LEFT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "Baretyl"
+    default "baretyl"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+CONFIG_ZMK_HID_REPORT_TYPE_NKRO
+    default y
+
+CONFIG_ZMK_POINTING
+    default y
 endif
 
 if SHIELD_BARETYL_LEFT || SHIELD_BARETYL_RIGHT
