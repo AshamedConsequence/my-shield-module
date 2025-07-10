@@ -6,8 +6,6 @@ config ZMK_KEYBOARD_NAME
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
-
-
 endif
 
 if SHIELD_BARETYL_LEFT || SHIELD_BARETYL_RIGHT
