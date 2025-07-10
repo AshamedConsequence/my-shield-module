@@ -7,8 +7,6 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-config ZMK_HID_REPORT_TYPE_NKRO=y
-config ZMK_POINTING=y
 
 endif
 
